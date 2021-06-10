@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+
+.img-container{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+.container .mac{
+    font-size:16px;
+    max-width:700px;
+    margin:0 auto 40px;
+}
+
+.container .sam{
+    font-size:16px;
+    max-width:700px;
+    margin:0 auto 40px;
+}
+
+.mac h1{
+    font-weight:bold;
+    margin-bottom:40px;
+    padding-top:40px;
+    color:inherit;
+}
+
+.sam h1{
+    font-weight:bold;
+    margin-bottom:40px;
+    padding-top:40px;
+    color:inherit;
+}
+.mac p{
+    font-size: 28px;
+    margin-top: 50px;
+    font-family: 'Zhi';
+}
+
+.sam p{
+    font-size: 28px;
+    margin-top: 50px;
+    font-family: 'Zhi';
+}
+
+.container p{
+    color:#3d3f41;
+}
